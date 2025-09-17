@@ -6,7 +6,7 @@
 //  Copyright © 2025 App Brewery. All rights reserved.
 //
 
-class Item {
+class Item: Codable {
   var title: String = ""
   var done: Bool = false
 }
